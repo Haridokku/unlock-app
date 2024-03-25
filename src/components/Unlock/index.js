@@ -8,7 +8,7 @@ import {
 } from './styledComponents'
 
 const Unlock = () => {
-  const [isLocked, setLockStatus] = useState(false)
+  const [isLocked, setLockStatus] = useState(true)
   const textValue = isLocked
     ? 'Your Device is Locked'
     : 'Your Device is Unlocked'
